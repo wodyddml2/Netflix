@@ -52,7 +52,7 @@ class SignUpViewController: UIViewController {
     }
     
     func textFeilds(name: UITextField, holder: String, key: UIKeyboardType) {
-        name.backgroundColor = UIColor(named: "TextFeildColor")
+        name.backgroundColor = UIColor(named: "TextFieldColor")
         // foregroundColor -> 뷰에 표시되는 전경 색을 바꾼다.
         name.attributedPlaceholder = NSAttributedString(string: holder, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         name.textAlignment = .center
@@ -122,10 +122,7 @@ class SignUpViewController: UIViewController {
         }
     }
     
-    
-    @IBAction func d(_ sender: UITextField) {
-    }
-    
+
     
     
 }
